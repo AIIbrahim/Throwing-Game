@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="120sp"
+                    android:layout_height="50dp"
+                    android:text="TEAM A"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50sp"
+                    android:layout_marginLeft="10sp"/>
+                <TextView
+                    android:id="@+id/tav"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text=""
+                    android:paddingLeft="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="gravity"
+                    android:textSize="70sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/TA3p"
+                    android:layout_width="100dp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/colorPrimary"
+                    android:text="+ 3 POINTS"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick" />
+                <Button
+                    android:id="@+id/TA2p"
+                    android:layout_width="100dp"
+                    android:layout_height="40sp"
+                    android:text="+ 2 POINTS"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="50dp"/>
+                <Button
+                    android:id="@+id/TAFT"
+                    android:layout_width="100dp"
+                    android:layout_height="40sp"
+                    android:text="Free throw"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="120sp"
+                    android:layout_height="50dp"
+                    android:text="TEAM B"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50sp"
+                    android:layout_marginLeft="10sp"/>
+                <TextView
+                    android:id="@+id/tbv"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text=""
+                    android:textStyle="normal"
+                    android:textAlignment="gravity"
+                    android:textSize="70sp"
+                    android:paddingLeft="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="20dp"/>
+                <Button
+                    android:id="@+id/TB3p"
+                    android:layout_width="100dp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/colorPrimary"
+                    android:text="+ 3 POINTS"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/TB2p"
+                    android:layout_width="100dp"
+                    android:layout_height="40sp"
+                    android:text="+ 2 POINTS"
+                    android:textStyle="normal"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="50dp"/>
+                <Button
+                    android:id="@+id/TBFT"
+                    android:layout_width="100dp"
+                    android:layout_height="40sp"
+                    android:text="Free throw"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="100dp"
+                android:layout_height="40sp"
+                android:text="RESET"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="145sp"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
